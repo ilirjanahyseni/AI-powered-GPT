@@ -5,7 +5,7 @@ This code script fetches book information from the Google Books API based on a g
 import requests # for making HTTP requests
 
 def fetch_book_info(isbn):
-    api_key = 'Insert_Your_API_Key'  # Replace with your actual API key
+    api_key = 'Insert_Your_API_Key'  # Replace with your API key
     url = f'https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}&key={api_key}'
 
     response = requests.get(url)
@@ -26,6 +26,6 @@ def fetch_book_info(isbn):
         print(f"Failed to fetch data for ISBN: {isbn}. Status code: {response.status_code}")
 
 # Example ISBN
-isbn_list = ['9781590300787']  # Add your list of ISBNs
+isbn_list = ['9780747532743']  # Add your list of ISBNs
 for isbn in isbn_list:
     fetch_book_info(isbn)
