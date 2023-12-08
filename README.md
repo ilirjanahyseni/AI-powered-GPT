@@ -8,7 +8,7 @@ https://chat.openai.com/g/g-54hwDuiRA-personal-ai-librarian
 
 ## 
 ### Scope and Features 
-**Inventory Management**: catalogs books, including details like title, author, genre, publication year, and personal annotations.
+**Inventory Management**: catalogs books, including details like title, author, genre, publication year, and completion status.
 
 **Search Functionality**: can search for books by various criteria and reading progress/status of each book. 
 
@@ -25,4 +25,12 @@ https://chat.openai.com/g/g-54hwDuiRA-personal-ai-librarian
 **Choosing a Model**: Used a pre-trained chatGPT4 model.
 
 **Fine-Tuning Process**: Used book inventory custom data to fine-tune the model.
+
+### Expansion and Additional Features 
+
+**Personal Notes and Ratings**: Include your personal notes, reviews, or ratings for each book.
+
+**Regular Updates**: Continuously update the model and application with new books and reading data.
+
+
 
