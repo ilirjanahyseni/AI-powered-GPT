@@ -25,7 +25,7 @@ https://chat.openai.com/g/g-54hwDuiRA-personal-ai-librarian
 ### Model Selection and Training 
 **Choosing a Model**: Used a pre-trained chatGPT4 model.
 
-**Fine-Tuning Process**: Used book inventory custom data to fine-tune the model.
+**Fine-Tuning Process**: Used custom data to fine-tune the model.
 
 **Regular Updates**: Continuously update the model and application with new books and reading data.
 
