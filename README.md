@@ -21,16 +21,25 @@ https://chat.openai.com/g/g-54hwDuiRA-personal-ai-librarian
 3. **Python and APIs**: used `requests` (HTTP library) to make requests to the web service for book data based on its ISBN.
 4. **Data Fetching and Storage**: querying scripts executed in VS Code [print out details](https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests2.py) about the books associated with ISBN(s) and/or [store the data]( https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests.py) in a CSV file. 
 
+
 ### Model Selection and Training 
 **Choosing a Model**: Used a pre-trained chatGPT4 model.
 
 **Fine-Tuning Process**: Used book inventory custom data to fine-tune the model.
 
-### Expansion and Additional Features 
-
-**Personal Notes and Ratings**: Include your personal notes, reviews, or ratings for each book.
-
 **Regular Updates**: Continuously update the model and application with new books and reading data.
+
+### Expansion and Additional Features 
+**Personal Notes and Ratings**: Include personal notes, reviews, or ratings for each book.
+
+**Connect with External APIs**: Integrate with APIs for additional data or features such as:
+
+- Goodreads API to fetch book recommendations based on user preferences
+
+- Amazon API to access real-time pricing and availability information.
+
+
+
 
 
 
