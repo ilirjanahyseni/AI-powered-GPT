@@ -19,5 +19,5 @@ Reading Recommendations: the GPT can suggest books from the library based on top
 
 2. Google Cloud Platform: set up an API Key for Google Books API web service. 
 3. Python and APIs: used `requests` (HTTP library) to make requests to the web service for book data based on its ISBN.
-4. Data Fetching and Storage: querying scripts executed in VS Code print out information about the books associated with ISBN(s) and/or store it in a CSV file. 
+4. Data Fetching and Storage: querying scripts executed in VS Code [print out information about the books](https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests.py) associated with ISBN(s) and/or store it in a CSV file. 
 
