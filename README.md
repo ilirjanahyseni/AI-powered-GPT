@@ -15,11 +15,19 @@ https://chat.openai.com/g/g-54hwDuiRA-personal-ai-librarian
 **Reading Recommendations**: suggests books from the library based on topic or preference. 
 
 ### Data Collection and Organization Tools
-1. Cataloging Books: A comprehensive list of books was created using an [ISBN scan reader](https://play.google.com/store/apps/details?id=org.micla.MiClaScanISBN&hl=en_US&gl=US).
+1. **Cataloging Book**s: a comprehensive list of books was created using an [ISBN scan reader](https://play.google.com/store/apps/details?id=org.micla.MiClaScanISBN&hl=en_US&gl=US).
+2. **Google Cloud Platform**: created an API Key for Google Books API web service.
+3. **Git Version Control**: querying scripts executed in VS Code.
+   
+4. **Data Fetching: Making an API Request**: used `requests` library in Python to make an HTTP GET request to the web service for book data based on its ISBN.
 
-2. **Google Cloud Platform**: set up an API Key for Google Books API web service. 
-3. **Python and APIs**: used `requests` (HTTP library) to make requests to the web service for book data based on its ISBN.
-4. **Data Fetching and Storage**: querying scripts executed in VS Code [print out details](https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests2.py) about the books associated with ISBN(s) and/or [store the data]( https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests.py) in a CSV file. 
+5. **Receiving JSON Response**: The Google Books API returns data in JSON format. When the script's requests.get(url) method executes successfully, it retrieves this JSON data.
+
+6. **Parsing JSON Data:** The script parses the JSON data using the response.json() method, which converts the JSON data from the API into a Python dictionary.
+
+7. **Extracting Information from JSON:** The script then uses .get() method to extract relevant information from this dictionary, such as title, authors, published date, page count, and categories. 
+
+8. **Data Storage**: script [prints out details](https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests2.py) about the books associated with ISBN(s) and/or [store the data]( https://github.com/ilirjanahyseni/AI-powered-library/blob/main/import%20requests.py) in a CSV file. 
 
 
 ### Model Selection and Training 
