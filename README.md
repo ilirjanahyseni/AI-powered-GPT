@@ -14,7 +14,7 @@ https://chat.openai.com/g/g-54hwDuiRA-personal-ai-librarian
 
 **Reading Recommendations**: suggests books from the library based on topic or preference. 
 
-### Data Collection and Organization Tools
+### Data Collection and Automation
 1. **Cataloging Book**s: a comprehensive list of books was created using an [ISBN scan reader](https://play.google.com/store/apps/details?id=org.micla.MiClaScanISBN&hl=en_US&gl=US).
 2. **Google Cloud Platform**: created an API Key for Google Books API web service.
 3. **Git Version Control**: querying scripts executed in VS Code.
